@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+}
+body{
+    background: floralwhite;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+}
+
+.home{
+    width: 100%;
+    height: 300px;
+    background-color:whitesmoke;
+  font-family: 'Roboto Mono', monospace;;
+}
+#name p{
+    font-size: 25px;
+}
+#name h2{
+    font-size: 44px;
+}
+
+
+#name{
+    position: relative;
+    left: 60px;
+    top: 100px;
+}
+
+#name h2{
+ overflow: hidden;
+white-space: nowrap;
+border-right: 3px solid orange;
+animation: 
+ typing 8s infinite,
+ caret .5s infinite;
+width: 30%;
+}
+
+.navbar{
+    position: relative;
+    right: 0px;
+}
+
+@keyframes typing{
+    from{width: 0px;}
+    to{width: 30%;}
+}
+
+@keyframes caret{
+    from{border-right: transparent;}
+    to{border-right: 3px solid orange;}
+}
+
+.home{
+    background-color: beige;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto Mono', monospace;
+    padding: 1.5em 10px 1em 10px;
+    background-color: beige;
+    font-size: 18px;
+    height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    color: darkgreen;
+    padding-left: 60px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+
+.header{
+    top: 0px;
+}
+
+.header span{
+    font-size: 25px;
+}
+.download-btn
+{
+    height: 45px;
+    font-size: 15px;
+    font-family: 'Roboto Mono';
+    width: 220px;
+    font-weight: 600;
+    border: double;
+    border-radius: 14px;
+    background: beige;
+    color:darkgreen;
+    cursor:pointer;
+}
+
+#download-btn:hover
+{
+    background-color: floralwhite;
+    
+}
+
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.navbar ul li {
+    padding-right: 10px;
+}
+.navbar ul li:hover{
+    color: brown;
+}
+
+.logo span:hover
+{
+    color: brown;
+}
+.text h1 {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.text span {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    white-space: pre-line;
+}
+
+.about-me{
+    display: flex;
+
+}
+
+.anchor
+{
+ text-decoration: none;
+ color: green;
+}
+
+.anchor:hover
+{
+    color: brown;
+    text-decoration:underline;
+
+}
+
+.text{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 6%;
+    background: floralwhite;
+}
+
+.about-me .img
+{
+    margin: 6%;
+    width: 50%;
+}
+
+#head{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#head h2{
+    font-size: 42px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#head span{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.skills
+{
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: white;
+}
+
+.box
+{
+    /* border: 1px solid red; */
+    background-color: aquamarine;
+    width: 200px;
+    height: 300px;
+}
+
+.boxes
+{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    background: floralwhite;
+}
+
+/* .html p:first-child
+{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+} */
+
+/* .html p:first-child:before
+{
+    content: '<';
+
+} */
+
+.texts{
+    text-align: center;
+    font-size: 25px;
+}
+
+.progress-section
+{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.progress{
+    width: 500px;
+    height: 10px;
+    border: 1px solid white;
+    margin-bottom: 30px;
+}
+
+.p-1
+{
+    width: 70%;
+    height: 10px;
+    background-color: floralwhite;
+}
+
+.p-2{
+    width: 70%;
+    height: 10px;
+    background-color: floralwhite;
+}
+
+.p-3{
+    width: 60%;
+    height: 10px;
+    background-color: floralwhite;
+}
+
+.p-4{
+    width: 60%;
+    height: 10px;
+    background-color: floralwhite;
+}
+
+.text-head
+{
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 30px;
+}
+
+.progress-head
+{
+    font-family:'Roboto Mono', monospace; 
+    margin-top: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divide-learn
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.myLearning
+{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.myLearning #my{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    left: 15px;
+    font-size: 24px;
+}
+
+.myLearning p{
+    width: 410px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.udemy{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.contact-me
+{font-family: 'Ubuntu', sans-serif;
+   margin-bottom: 70px;
+    font-weight: 500;
+    font-size: 42px;
+    background-color: floralwhite;
+}
+.contact-me .head
+{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+
+.contact-me .head p
+{
+    font-size: 25px;
+}
+.bottom{
+    font-size: 14px;
+}
+
+.form-detail{
+display: flex;
+margin-left: 60px;
+margin-right: 60px;
+justify-content: space-between;
+font-family: 'Roboto Mono', monospace;
+}
+
+.left 
+{
+    font-size: 20px;
+    width: 400px;
+}
+.left #text{
+    margin-bottom: 20px;
+}
+
+.right{
+    font-size: 20px;
+    position: relative;
+    right: 70px;
+}
+
+.right input{
+    width: 350px;
+    border-radius: 13px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid green;
+
+}
+
+::placeholder{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.bottom{
+    padding-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: floralwhite;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+.bottom p{
+    display: inline;
+}
+
+#second::before{
+ content:' C';
+ font-weight: bold;
+ border: 1px solid white;
+ border-radius: 50%;
+}
+
+.parent{
+    width: 100%;
+    height: 500px;
+}
+
+@media only screen and (max-width:600px) {
+    .header{
+        width: 91%;
+        font-size: 14px;
+    }
+    .header span{
+        font-size: 19px;
+    }
+    #name p{
+        font-size: 14px;
+    }
+    #name h2{
+        font-size: 24px;
+    }
+    .download-btn{
+        height: 35px;
+        width: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: .7em;
+    }
+    .home
+    {
+        height: 240px;
+    }
+    #head h2{
+        font-size: 24px;
+    }
+    .skills{
+        padding-top: 5px;
+    }
+    #head{
+        margin-top: 10px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    .img img{
+        width: 250px;
+    height: 180px;
+    }
+    .about-me .text h1{
+        font-size: 15px;
+    }
+    .about-me span{
+        font-size:12px;
+    }
+    .box .texts{
+        font-size: 18px;
+    }
+    .box p{
+        font-size: 13px;
+    }
+    .box {
+        height: 235px;
+    }
+    .progress-section{
+        margin-left: 30px;
+    }
+    .progress-head{
+        width: 200px;
+    }
+    .progress{
+        width: 200px;
+    }
+    .myLearning{
+        margin-left: 0px;
+    }
+    .myLearning #my{
+        text-align:left;
+        font-size: 22px;
+        left: 0px;
+    }
+    .myLearning p{
+        margin-left: 0px;
+        width: 230px;
+        font-size: 14px;
+    }
+    .udemy{
+        margin-left: 0px;
+    }
+    .contact-me .head{
+        font-size: 24px;
+    }
+    .contact-me .head p{
+        font-size: 17px;
+    }
+    .left{
+        font-size: 14px;
+    }
+    .right{
+        font-size: 14px;
+        left: 40px;
+    }
+    .right input{
+        width: 250px;
+    }
+}
+
+/* @media only screen and (min-width: 195px) {
+     .header{
+        /* width: 90%; */
+     /* }
+     .about-me .img{
+         width: 32%;
+     }
+  } */ 
+
